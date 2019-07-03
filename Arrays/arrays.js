@@ -39,8 +39,31 @@ var paula = {
     altura: 1.76,
     cantidadDeLibros: 182
 }
-
+// Formas de declarar un arreglo
 var persona = [sacha, alan, martin, dario, vicky, paula]
+const meses = new Array('Enero', 'Febrero', 'Marzo', 'Abril')
+
+//Añadir en un arreglo
+meses[4]='Mayo';
+meses.push('Junio'); //al final del arreglo
+meses.unshift('Mes 0')//Añade al inicio del arreglo
+
+//Eliminar un elemento de un arreglo
+meses.pop();//elimina el ultimo elemente
+meses.shift(); //elimina el elemento de inicio (el primero)
+meses.splice(2,2); // parametros [posicion,N° Elementos a quitar]
+
+//revertir el orden del arreglo
+meses.reverse();
+
+//Encontrar un elemento en el arreglo
+console.log(meses.indexOf('Abril'));
+
+//Unir un arreglo con otro
+let arreglo1 =[1,2,3],
+    arreglo2 = [9,8,7];
+    console.log(arreglo1.concat.arreglo2);
+
 
 
 for (var i = 0; i < persona.length; i++) {
