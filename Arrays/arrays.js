@@ -64,6 +64,16 @@ let arreglo1 =[1,2,3],
     arreglo2 = [9,8,7];
     console.log(arreglo1.concat.arreglo2);
 
+//Ordenar un arreglo
+const frutas = ['Platano', 'Manzana', 'Pera', 'Mandarina', 'Naranja'];
+frutas.sort(); //Ordena con letras
+
+arreglo1 =[3,9,5,88,99,1,2,4,8,9,7,33];
+//Ordena numeros
+arreglo1.sort(function(x,y){
+  return x - y;
+});
+console.log(arreglo1);
 
 
 for (var i = 0; i < persona.length; i++) {
