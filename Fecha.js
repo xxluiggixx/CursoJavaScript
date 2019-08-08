@@ -22,3 +22,4 @@ diaHoy.getHours();
 
 //Cambiar un valor
 diaHoy.setFullYear(2016);
+
